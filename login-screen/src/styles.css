@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(61, 116, 176, 1) 0%,
+    rgba(123, 79, 176, 1) 100%
+  );
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.form-area {
+  flex-grow: 1;
+  background-color: white;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: #e4e4e4;
+  height: 1px;
+}
+
+.form-element {
+  margin: 10px 0px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 0px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #b2b2b2;
+}
+
+::placeholder {
+  color: #b2b2b2;
+}
+
+a.form-element {
+  text-decoration: none;
+  color: #b2b2b2;
+}
+form {
+  width: 80%;
+}
+
+button {
+  background-color: #2691d9;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+}
+
+a.signup {
+  color: #2691d9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p.form-element {
+  color: #868686;
+}
